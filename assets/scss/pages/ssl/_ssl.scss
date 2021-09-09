@@ -26,6 +26,11 @@
     }
 
     .ssl-packages {
+
+        @media (max-width: 575.98px) {
+            padding: 50px 0;
+        }
+
         .ssl-item {
             background-color: #f2f2f2;
             text-align: center;

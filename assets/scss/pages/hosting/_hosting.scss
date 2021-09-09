@@ -28,6 +28,10 @@
             padding-bottom: 30px;
             margin-top: -345px;
 
+            @media (max-width: 991.98px) {
+                margin-top: -400px;
+            }
+
             .nav-item {
                 .nav-link {
                     border: 0;

@@ -1032,6 +1032,12 @@ ul {
   margin-top: -270px;
 }
 
+@media (max-width: 991.98px) {
+  .email .price-table {
+    margin-top: -320px;
+  }
+}
+
 .email .price-table .price-item {
   text-align: center;
   background-color: #f2f2f2;
@@ -1175,6 +1181,12 @@ ul {
   color: #ffffff;
 }
 
+@media (max-width: 575.98px) {
+  .ssl .ssl-packages {
+    padding: 50px 0;
+  }
+}
+
 .ssl .ssl-packages .ssl-item {
   background-color: #f2f2f2;
   text-align: center;
@@ -1310,6 +1322,12 @@ ul {
   border: 0;
   padding-bottom: 30px;
   margin-top: -345px;
+}
+
+@media (max-width: 991.98px) {
+  .hosting .price-table .nav-tabs {
+    margin-top: -400px;
+  }
 }
 
 .hosting .price-table .nav-tabs .nav-item .nav-link {
@@ -1555,4 +1573,131 @@ ul {
   text-align: center;
   line-height: 50px;
   border-radius: 50%;
+}
+
+.transform .page-banner {
+  text-align: center;
+  padding-top: 220px;
+  padding-bottom: 30px;
+  background-image: url(../images/ssl-banner.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+}
+
+.transform .page-banner h1 {
+  font-size: 45px;
+  line-height: 55px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+@media (max-width: 767.98px) {
+  .transform .page-banner h1 {
+    font-size: 28px;
+    line-height: 38px;
+  }
+}
+
+.transform .page-banner span {
+  color: #ffffff;
+}
+
+.transform .steeps {
+  position: relative;
+}
+
+.transform .steeps::after {
+  content: '';
+  width: 765px;
+  height: 1px;
+  background-color: #eee;
+  position: absolute;
+  top: 22px;
+  left: 185px;
+  z-index: -1;
+}
+
+@media (max-width: 991.98px) {
+  .transform .steeps::after {
+    display: none;
+  }
+}
+
+.transform .steep-item {
+  text-align: center;
+}
+
+.transform .steep-item i {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  border: 2px solid #3b42ed;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 45px;
+  color: #3b42ed;
+  background-color: #ffffff;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.transform .steep-item:hover i {
+  background-color: #3b42ed;
+  color: #ffffff;
+}
+
+.transform .steep-item h3 {
+  font-size: 20px;
+  font-weight: 700;
+  padding-top: 30px;
+  padding-bottom: 5px;
+}
+
+.transform .alert {
+  background-image: url(../images/bg.svg);
+  background-color: #f3f4f8;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+}
+
+.transform .login-info .img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.transform .login-info .text {
+  padding: 30px;
+  background-color: #f3f4f8;
+}
+
+.transform .why-migrate .row {
+  padding-top: 30px;
+}
+
+.transform .why-migrate .migrate-item {
+  position: relative;
+  padding-left: 110px;
+}
+
+.transform .why-migrate .migrate-item img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 90px;
+}
+
+@media (max-width: 767.98px) {
+  .transform .why-migrate .migrate-item {
+    padding-left: 0;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .transform .why-migrate .migrate-item img {
+    position: relative;
+    margin-bottom: 30px;
+  }
 }

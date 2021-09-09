@@ -24,6 +24,11 @@
 
     .price-table {
         margin-top: -270px;
+
+        @media (max-width: 991.98px) {
+            margin-top: -320px;
+        }
+
         .price-item {
             text-align: center;
             background-color: #f2f2f2;

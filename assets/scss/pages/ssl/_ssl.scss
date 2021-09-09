@@ -1,0 +1,133 @@
+.ssl {
+    .page-banner {
+        text-align: center;
+        padding-top: 220px;
+        padding-bottom: 30px;
+        background-image: url(../images/ssl-banner.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100% 100%;
+
+        h1 {
+            font-size: 45px;
+            line-height: 55px;
+            font-weight: 700;
+            color: $white;
+
+            @media (max-width: 767.98px) {
+                font-size: 28px;
+                line-height: 38px;
+            }
+        }
+
+        span {
+            color: $white;
+        }
+    }
+
+    .ssl-packages {
+        .ssl-item {
+            background-color: #f2f2f2;
+            text-align: center;
+            padding: 30px 15px;
+            border-radius: 10px;
+
+            > p {
+                margin-bottom: 0;
+                margin-top: 15px;
+            }
+
+            h4 {
+                font-size: 14px;
+                position: relative;
+                padding-bottom: 15px;
+                margin-bottom: 30px;
+
+                &::after {
+                    content: '';
+                    width: 40px;
+                    height: 2px;
+                    background-color: $primary-color;
+                    position: absolute;
+                    top: 100%;
+                    left: 50%;
+                    transform: translateX(-50%);
+                }
+            }
+
+            .price {
+                p {
+                    display: inline-block;
+                    position: relative;
+                    font-size: 42px;
+                    color: $hColor;
+                    font-weight: 700;
+                    padding: 0 28px 0 15px;
+
+                    sup {
+                        position: absolute;
+                        top: 3px;
+                        left: 0;
+                        font-size: 18px;
+                    }
+
+                    sub {
+                        position: absolute;
+                        right: 0;
+                        bottom: 6px;
+                        font-size: 18px;
+                    }
+                }
+            }
+
+            .custom-btn {
+                display: block;
+            }
+        }
+    }
+
+    // ssl-sertificate
+    .ssl-certificate {
+        .feature-item {
+            display: flex;
+            align-items: center;
+            max-width: 780px;
+            padding: 0 15px;
+            margin: 0 auto 30px;
+    
+            .img {
+                width: 145px;
+    
+                img {
+                    max-width: 115px;
+                }
+            }
+    
+            .text {
+                width: calc(100% - 145px);
+    
+                h3 {
+                    font-size: 24px;
+                    line-height: 34px;
+                }
+    
+                p {
+                    margin-bottom: 0;
+                }
+            }
+
+            @media (max-width: 767.98px) {
+                flex-direction: column;
+    
+                .text {
+                    text-align: center;
+                    width: 100%;
+    
+                    h3 {
+                        padding: 15px 0;
+                    }
+                }
+            }
+        }
+    }
+}
